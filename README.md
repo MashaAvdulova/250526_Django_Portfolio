@@ -56,4 +56,4 @@
 ## Создаем суперпользователя
 ## python manage.py createsuperuser
 ## Меняем пароль у заданного пользователя
-## python manage.py changepassword admin 1234
+## python manage.py changepassword admin 12344
