@@ -1,0 +1,10 @@
+{% extends 'skills/base.html' %}
+{% block content %}
+
+<h1>Портфолио разработчика</h1>
+
+    {% for project in projects %}
+      {{ project.title }}
+    {% endfor % }
+
+{% endblock %}
